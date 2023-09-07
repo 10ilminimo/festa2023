@@ -3,34 +3,37 @@
 
 @charset "utf-8";
 
-$bg-purple: #5b21b6;
-$bg-purple-darker: #3e0e8a;
+$bg-red: #b62135;
+$bg-red-darker: #8a0e27;
 
-.bg-purple{
-  background-color: $bg-purple !important;
+.bg-red{
+  background-color: $bg-red !important;
 }
 
 
 
-.bg-purple.darker{
-  background-color: $bg-purple-darker;
+.bg-red.darker{
+  background-color: $bg-red-darker;
 }
 
 
 .text-purple{
-  color: $bg-purple;
+  color: $bg-red;
 }
 
 
-.bg-red{
-  background-color: #eb0056;
-}
 
 body,html{
   overflow-x: hidden;
+  height: 100%;
   font-family: "Montserrat" !important;
 }
 
+
+h1, h2, h3, h4, h5 h6{
+  font-family: "Climate Crisis";
+  letter-spacing: 3px;
+}
 .slogan{
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
@@ -99,11 +102,11 @@ $image-width: 5.5rem;
 
 .btn-purple{
   --bs-btn-color: #fff !important;
-  --bs-btn-bg: #{$bg-purple} !important;
-  --bs-btn-border-color: #{$bg-purple} !important;
+  --bs-btn-bg: #{$bg-red} !important;
+  --bs-btn-border-color: #{$bg-red} !important;
   --bs-btn-hover-color: #fff !important;
-  --bs-btn-hover-bg: #{$bg-purple-darker} !important;
-  --bs-btn-hover-border-color: #{$bg-purple-darker} !important;
+  --bs-btn-hover-bg: #{$bg-red-darker} !important;
+  --bs-btn-hover-border-color: #{$bg-red-darker} !important;
   --bs-btn-focus-shadow-rgb: 120, 37, 250 !important;
   --bs-btn-active-color: #fff !important;
   --bs-btn-active-bg: #3c0792 !important;
@@ -115,19 +118,19 @@ $image-width: 5.5rem;
 }
 
 .btn-outline-purple{
-  --bs-btn-color: #{$bg-purple} !important;
+  --bs-btn-color: #{$bg-red} !important;
   --bs-btn-border-color: transparent  !important;
   --bs-btn-hover-color: #fff !important;
-  --bs-btn-hover-bg: #{$bg-purple} !important;
-  --bs-btn-hover-border-color: #{$bg-purple} !important;
+  --bs-btn-hover-bg: #{$bg-red} !important;
+  --bs-btn-hover-border-color: #{$bg-red} !important;
   --bs-btn-focus-shadow-rgb: 120, 37, 250  !important;
   --bs-btn-active-color: #fff !important;
-  --bs-btn-active-bg: #{$bg-purple} !important;
-  --bs-btn-active-border-color: #{$bg-purple} !important;
+  --bs-btn-active-bg: #{$bg-red} !important;
+  --bs-btn-active-border-color: #{$bg-red} !important;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
-  --bs-btn-disabled-color: #{$bg-purple} !important;
+  --bs-btn-disabled-color: #{$bg-red} !important;
   --bs-btn-disabled-bg: transparent !important;
-  --bs-btn-disabled-border-color: #{$bg-purple} !important;
+  --bs-btn-disabled-border-color: #{$bg-red} !important;
   --bs-gradient: none !important;
 }
 
@@ -137,11 +140,11 @@ $image-width: 5.5rem;
   background-image: linear-gradient(to top,
                     transparent,
                     transparent 50%,
-                    #{$bg-purple} 50%,
-                    #{$bg-purple});
-border: 6px solid #{$bg-purple} !important;
+                    #{$bg-red} 50%,
+                    #{$bg-red});
+border: 6px solid #{$bg-red} !important;
 border-radius: 0px !important;
-color: #{$bg-purple} !important;
+color: #{$bg-red} !important;
 text-decoration: none;
   background-position: 0 -95%;
     background-size: 100% 210%;
@@ -161,8 +164,8 @@ text-decoration: none;
         height: 3.6rem;
         background-color: white;
         border-radius: 100%;
-        color: #{$bg-purple} !important;
-        border: 6px solid #{$bg-purple} !important;
+        color: #{$bg-red} !important;
+        border: 6px solid #{$bg-red} !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -176,4 +179,44 @@ text-decoration: none;
       right: 0px;
 
     }
+}
+
+
+.background{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0) 100px),url('/img/sfondo.png'),;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+      background-size: 100% 100%;
+    @media screen and (orientation:portrait) {
+    align-items: flex-end;
+  }
+  @media screen and (orientation:landscape) {
+    align-items: center;
+  }
+
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+      background-position: center;
+    @media screen and (orientation:portrait) {
+      background-image: url('/img/overlay-mobile.png');
+      }
+
+      @media screen and (orientation:landscape) {
+      background-image: url('/img/overlay-desktop.png');      }
+  }
+
 }
