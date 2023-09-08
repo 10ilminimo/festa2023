@@ -11,6 +11,10 @@ $bg-red-darker: #8a0e27;
 }
 
 
+.text-red{
+  color: $bg-red !important;
+}
+
 
 .bg-red.darker{
   background-color: $bg-red-darker;
@@ -30,13 +34,17 @@ body,html{
 }
 
 
-h1, h2, h3, h4, h5 h6{
-  font-family: "Climate Crisis";
-  letter-spacing: 3px;
-}
-.slogan{
+h1, h2, h3, h4, h5, h6, .highlight{
+  font-family: "Passion One";
+  font-weight: 700 !important;
+  font-size: 150%;
+  }
+
+
+  .slogan{
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+
   line-height: 1.7;
   padding: 0.15rem 0.5rem;
 }
@@ -220,3 +228,11 @@ text-decoration: none;
   }
 
 }
+
+.card-header .collapse-arrow{
+  transition: transform 0.3s ease-in-out;
+}
+.card-header:not(.collapsed) > .collapse-arrow{
+  transform: rotate(180deg);
+}
+

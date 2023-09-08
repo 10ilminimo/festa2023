@@ -3,11 +3,20 @@
 
 
 
-    <button class="ms-auto navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <button class="ms-auto navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"  data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+
+<span class="navbar-toggler-icon  text-white"></span>
+
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarScroll">
+    <div class="offcanvas offcanvas-end bg-red" id="navbarScroll">
+      <div class="offcanvas-header text-white">
+        <h4>Festa 2023</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+
+      </div>
+
       <ul class="navbar-nav mx-auto">
         {% for item in site.data.menu %}
         <li class="nav-item mx-3">
