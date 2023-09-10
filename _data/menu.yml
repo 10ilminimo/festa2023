@@ -6,6 +6,7 @@
   link: "/programma"
 - title: "Menu"
   link: "/menu"
-
+- title: "Bar"
+  link: "/bar"
 - title: "Come aiutare"
   link: "/aiutare"
