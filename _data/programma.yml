@@ -1,0 +1,195 @@
+- giorno: Giovedì 21 settembre
+  id: giov
+  eventi:
+  - ora: "17:00"
+    gc: true
+    titolo: Stragi e neofascismo
+    relatori:
+      - Paolo Bolognesi
+      - Raul Mordenti
+      - nome: Carlo Ghezzi
+        qualifica: A.N.P.I.
+      - Ascanio Celestini
+    coordina:  Rita Scapinelli
+  - ora: "18:30"
+    titolo: "Il ruolo dei comunisti per l’opposizione e l’alternativa"
+    relatori:
+      - nome: Maurizio Acerbo
+        qualifica: Segretario naz. Prc-Se
+      - nome: Mauro Alboresi
+        qualifica: Segretario naz. PCI
+      - nome: Franco Turigliatto
+        qualifica: Sinistra Anticapitalista
+    coordina: Gianluigi Pegolo
+  - ora: "20:00"
+    titolo: "Presentazione ‘Berlinguer e la pace’"
+    relatori:
+      - Alexander Hobel
+  - ora: "21:00"
+    titolo: CILE 1973 - 2023, NON DIMENTICHIAMO
+    relatori:
+      - Enrico Calamai,
+      - “lo Schindler italiano”
+      - nome: Lautaro Castro
+        qualifica: PC Cile)
+
+  - ora: "21:45"
+    titolo: RADIO CLANDESTINA di Ascanio Celestini
+    sottotitolo: Spettacolo su via Rasella e Fosse Ardeatine
+
+- giorno: Venerdì 22 settembre
+  id: ven
+  eventi:
+    - ora: "16:00"
+      titolo: Media, Guerra e potere politico
+      relatori:
+        - Pablo Iglesias
+        - Franco Berardi Bifo
+    - ora: "18:00"
+      titolo: "Autonomia differenziata e presidenzialismo: trappola per il paese"
+      relatori:
+        - Alessandra Algostino
+        - Marina Boscaino
+        - nome: Christian Ferrari
+          qualifica: CGIL
+      coordina: Tonia Guerra
+
+    - ora: "19:30"
+      titolo: "Lavoro: ripartiamo da salario minimo e sicurezza"
+      sottotitolo: Dibattito
+      relatori:
+        - Antonello Patta
+        - Emiliano Brancaccio
+        - nome: Guido Lutrario
+          qualifica: USB
+        - Giorgia d’Andrea
+        - nome: Frédéric Boccara
+          qualifica: PCF
+
+    - ora: "21:00"
+      titolo: Per un mondo Senza guerra
+      sottotitolo: monologo di Michele Santoro
+
+    - ora: "22:00"
+      titolo: Breve storia delle donne da Eva al PRESIDENTE GIORGIA Meloni
+      sottotitolo: monologo di e con Francesca Fornario, autrice satirica di Un giorno da pecora
+
+
+- giorno: Sabato 23 settembre
+  id: sab
+  eventi:
+    - ora: "11:00"
+      titolo: Incontro antirazzista
+      relatori:
+        - Realtà antirazziste
+        - nome: Valentina Škafar
+          qualifica: Levica)
+        - Mimmo Lucano
+        - Stefano Galieni
+
+    - ora: "15:30"
+      titolo: "Alluvione: emergenza imponderabile o crisi climatica? Transizione ecologica ed ecosocialismo"
+      relatori:
+        - nome: Pier Giorgio Ardeni
+          qualifica: Università di Bologna
+        - nome: Davide Ferraresi
+          qualifica: Presidente Legambiente Emilia-Romagna
+        - nome: Pippo Tadolini
+          qualifica: Per il clima fuori dal fossile
+        - nome: Corrado Oddi
+          qualifica: R.E.C.A.
+        - nome: Franca Masironi
+          qualifica: BSA
+      coordina: Barbara Domenichini, militante ecofemminista
+      introduce: Stefano Lugli
+
+    - ora: "17:00"
+      titolo: Presentazione ‘Dino Frisullo in cammino con gli ultimi’
+      relatori:
+        - Giovanni Russo Spena
+        - Sveva Haertter
+        - Mimmo Lucano
+        - Yilmaz Orkan
+
+    - ora: "18:00"
+      titolo: "La via maestra: Insieme per la Costituzione. Verso il 7 ottobre!"
+      relatori:
+        - Maurizio Landini
+
+    - ora: "19:00"
+      titolo: Femminicidio e non solo
+      relatori:
+        - nome: Marta Martín Morán
+          qualifica:  PCE
+        - Barbara Spinelli
+        - Paola Guazzo
+        - Stefano Galieni
+
+    - ora: "20:30"
+      titolo: Europa in guerra
+      relatori:
+        - Eleonora Forenza
+        - Paolo Ferrero
+        - Sandro Mezzadra
+        - nome: Marta Martín Morán
+          qualifica: PCE
+        - nome: Alfio Nicotra
+          qualifica: Un Ponte Per
+
+    - ora: "22:00"
+      titolo: Nonsense di me!
+      sottotitolo: Spettacolo di teatro-canzone di Andrea Rivera e The Band & Breakfast
+
+- giorno: Domenica 24 settembre
+  id: dome
+  eventi:
+    - ora: "12:00"
+      titolo: La pace è possibile?
+      sottotitolo: Incontro con il Cardinale Matteo Zuppi
+
+    - ora: "15:00"
+      titolo: Sanità pubblica, come possiamo evitare la catastrofe?
+      relatori:
+        - Rosa Rinaldi
+        - Vittorio Agnoletto
+        - Ivan Cavicchi
+    - gc: true
+      ora: "15:00"
+      titolo: "XII disposizione: antifascismo e rivoluzione"
+      relatori:
+        - Dino Greco
+        - Michele Terra
+
+    - gc: true
+      ora: "16:30"
+      titolo: Lotta ambientale, tra questione ecologica e questione sociale
+      relatori:
+        - nome: Simone Ficicchia
+          qualifica: Ultima Generazione
+        - nome: Eliana Como
+          qualifica: CGIL
+        - nome: Nino Pizzimenti
+          qualifica: Legambiente Bologna
+        - Rigenerazione No Speculazione
+
+    - ora: "18:00"
+      titolo: ‘ANonniMus. Vecchi rivoluzionari contro giovani robot.’
+      relatori:
+        - Sabina Guzzanti
+        - Francesca Fornario
+
+    - ora: "19:30"
+      titolo: "Unione Popolare: per la pace, la giustizia sociale e ambientale"
+      relatori:
+        - Simona Suriano
+        - Luigi de Magistris
+        - Marta Collot
+        - Maurizio Acerbo
+        - nome: Sira Rego
+          qualifica: portavoce Izquierda Unida, Vice presidente gruppo The Left
+        - nome: Marc Botenga
+          qualifica: Parlamentare europeo, gruppo The Left, Ptb Belgio
+
+    - ora: "21:30"
+      titolo: Un Gramsci mai visto
+      sottotitolo: Spettacolo di e con Angelo d’Orsi + Gang

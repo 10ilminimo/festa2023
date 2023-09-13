@@ -10,9 +10,19 @@ $bg-red-darker: #8a0e27;
   background-color: $bg-red !important;
 }
 
+.empty-ul{
+  // ul without markers
+  list-style: none;
+  padding-left: 0;
+}
 
 .text-red{
   color: $bg-red !important;
+}
+
+
+.fw-extra-bold{
+  font-weight: 900;
 }
 
 
@@ -30,6 +40,7 @@ $bg-red-darker: #8a0e27;
 body,html{
   overflow-x: hidden;
   height: 100%;
+  background-color: #f4f4f4 !important;
   font-family: "Montserrat" !important;
 }
 
@@ -72,7 +83,16 @@ $image-width: 5.5rem;
   }
 }
 
-.nav-link {
+
+ul.nav-pills .nav-link{
+  font-weight: 700;
+  color: #000;
+  &.active{
+    background-color: $bg-red;
+  }
+}
+
+ul:not(.nav-pills) .nav-link {
   display: inline-block;
   position: relative;
   color: white;
@@ -236,3 +256,14 @@ text-decoration: none;
   transform: rotate(180deg);
 }
 
+
+
+.card{
+  border: none !important;
+  box-shadow: 0 .5rem 1rem rgba(#000, .075) !important;
+
+  .card-header{
+    background-color: #fff !important;
+    border: none !important;
+  }
+}

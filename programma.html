@@ -5,4 +5,97 @@ permalink: /programma
 navbarcolor: bg-red
 ---
 <div class="container">
+  <div class="card">
+    <div class="card-body">
+      <ul class="nav nav-pills my-2 d-flex justify-content-center" role="tablist">
+        {% assign first = true %}
+        {% for giorno in site.data.programma %}
+<li class="nav-item " role="presentation"></li>
+
+<button class="nav-link {% if first == true %}active {% assign first = false %} {% endif %}" data-bs-toggle="pill" data-bs-target="#{{giorno.id}}" type="button" role="tab">{{giorno.giorno}}</button>
+
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+    <div class="tab-content my-3">
+      {% assign first = true %}
+    {% for giorno in site.data.programma %}
+      <div class="tab-pane fade {% if first %}active show {% assign first = false %} {% endif %}" id="{{giorno.id}}">
+         {% for evento in giorno.eventi %}
+         <div class="row justify-content-center">
+            <div class="col-12 col-lg-7 my-2">
+              <div class="card p-2">
+              <div class="card-body" style="position: relative">
+                <div class="row">
+                  <div class="col-12 col-md-4 col-lg-3 d-flex flex-row flex-md-column justify-content-center justify-content-md-start align-items-center">
+                    <span class="fw-bold mx-2">ore</span>
+                    <span class="fw-bold text-red fs-3 my-0">{{evento.ora}}</span>
+                  </div>
+                  <div class="col-12 col-md-8 col-lg-9">
+                    <div class="fw-extra-bold text-red fs-4 mb-2 align-items-baseline justify-content-between d-flex">
+                      <span>{{evento.titolo}}</span>
+
+                      {% if evento.gc %}
+                        <div class="flex-shrink-0 ms-2" style="width: 3rem;">
+                          <img style="width: 100%; object-fit: contain" src="img/gc.png">
+                        </div>
+                      {% endif %}
+
+                    </div>
+
+                    {% if evento.sottotitolo %}
+                    <div class="fw-bold text-center">{{evento.sottotitolo}}</div>
+                    {% endif %}
+
+                    {% if evento.relatori %}
+                    <div class="d-flex mt-3">
+                      <span class="me-2">con</span>
+                      <ul class="empty-ul">
+                        {% for relatore in evento.relatori %}
+                          <li>
+                            {% if relatore.nome %}
+                            <span class="fw-bold">{{relatore.nome}}</span> <span class="fst-italic">({{relatore.qualifica}})</span>
+                            {% else %}
+                            <span class="fw-bold">{{relatore}}</span>
+
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    {% endif %}
+                    {% if evento.introduce %}
+                      <div class="d-flex">
+                        <span class="me-2">coordina</span>
+                        <ul class="empty-ul">
+                          <li>
+                            <span class="fw-bold">{{evento.introduce}}</span>
+                          </li>
+                        </ul>
+                        </div>
+                      {% endif %}
+
+                    {% if evento.coordina %}
+                        <div class="d-flex">
+                          <span class="me-2">coordina</span>
+                          <ul class="empty-ul">
+                              <li><span class="fw-bold">{{evento.coordina}}</span></li>
+                          </ul>
+                        </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+         </div>
+
+         {% endfor %}
+      </div>
+    {% endfor %}
+
+    </div>
+
 </div>
