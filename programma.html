@@ -31,11 +31,12 @@ navbarcolor: bg-red
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 d-flex flex-row flex-md-column justify-content-center justify-content-md-start align-items-center">
                     <span class="fw-bold mx-2">ore</span>
-                    <span class="fw-bold text-red fs-3 my-0">{{evento.ora}}</span>
+                    <span class="fw-bold text-red fs-3 my-0 text-center">{{evento.ora}}</span>
                   </div>
                   <div class="col-12 col-md-8 col-lg-9">
-                    <div class="fw-extra-bold text-red fs-4 mb-2 align-items-baseline justify-content-between d-flex">
-                      <span>{{evento.titolo}}</span>
+                    <div class="fw-extra-bold text-red fs-4 mb-2  align-items-baseline justify-content-between d-flex">
+                        <span class="lh-sm">{{evento.titolo}}</span>
+
 
                       {% if evento.gc %}
                         <div class="flex-shrink-0 ms-2" style="width: 3rem;">
@@ -46,7 +47,7 @@ navbarcolor: bg-red
                     </div>
 
                     {% if evento.sottotitolo %}
-                    <div class="fw-bold text-center">{{evento.sottotitolo}}</div>
+                    <div class="fw-bold">{{evento.sottotitolo}}</div>
                     {% endif %}
 
                     {% if evento.relatori %}

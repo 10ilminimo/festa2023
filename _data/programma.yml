@@ -142,6 +142,9 @@
 - giorno: Domenica 24 settembre
   id: dome
   eventi:
+    - ora: "10:00 - 14:00"
+      titolo: Attivo
+      sottotitolo: con Ezio Locatelli e Maurizio Acerbo
     - ora: "12:00"
       titolo: La pace è possibile?
       sottotitolo: Incontro con il Cardinale Matteo Zuppi
