@@ -2,7 +2,6 @@
   id: giov
   eventi:
   - ora: "17:00"
-    gc: true
     titolo: Stragi e neofascismo
     relatori:
       - Paolo Bolognesi
