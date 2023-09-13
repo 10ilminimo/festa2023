@@ -4,7 +4,7 @@
 <button class="ms-auto text-white fw-extra-bold navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" style="  outline: none;">
 
         <div class="d-flex align-items-center">
-        <span class="me-3">Info</span>
+        {% if include.info %}<span class="me-3">Info</span>{% endif %}
 
     <span>
 	        <i class="bi bi-list" style="font-size: 2rem;"></i>
