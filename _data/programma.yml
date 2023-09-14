@@ -22,7 +22,8 @@
         qualifica: Sinistra Anticapitalista
     coordina: Gianluigi Pegolo
   - ora: "20:00"
-    titolo: "Presentazione ‘Berlinguer e la pace’"
+    titolo: Berlinguer e la pace
+    sottotitolo: Presentazione del libro "Enrico Berlinguer. La pace al primo posto", Donzelli
     relatori:
       - Alexander Hobel
   - ora: "21:00"
@@ -90,7 +91,8 @@
         - nome: Valentina Škafar
           qualifica: Levica)
         - Mimmo Lucano
-        - Stefano Galieni
+        - nome: Stefano Galieni
+          qualifica: Responsabile naz. immigrazione Prc-Se
 
     - ora: "15:30"
       titolo: "Alluvione: emergenza imponderabile o crisi climatica? Transizione ecologica ed ecosocialismo"
