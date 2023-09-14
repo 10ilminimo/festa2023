@@ -4,12 +4,13 @@
   - ora: "17:00"
     titolo: Stragi e neofascismo
     relatori:
-      - Paolo Bolognesi
+      - nome: Paolo Bolognesi
+        qualifica: Presidente associazione dei familiari delle vittime della strage di Bologna
       - Raul Mordenti
       - nome: Carlo Ghezzi
-        qualifica: A.N.P.I.
+        qualifica: Vicepresidente naz. A.N.P.I.
       - Ascanio Celestini
-    coordina:  Rita Scapinelli
+    coordina:  Rita Scapinelli <i class="fw-normal">(resp. Antifascismo Prc-Se)</i>
   - ora: "18:30"
     titolo: "Il ruolo dei comunisti per l’opposizione e l’alternativa"
     relatori:
