@@ -47,8 +47,10 @@
     - ora: "18:00"
       titolo: "Autonomia differenziata e presidenzialismo: trappola per il paese"
       relatori:
-        - Alessandra Algostino
-        - Marina Boscaino
+        - nome: Alessandra Algostino
+          qualifica: Costituzionalista, Università di Torino
+        - nome: Marina Boscaino
+          qualifica: Portavoce naz. dei comitati per il ritiro di ogni autonomia differenziata
         - nome: Christian Ferrari
           qualifica: CGIL
       coordina: Tonia Guerra
@@ -57,13 +59,16 @@
       titolo: "Lavoro: ripartiamo da salario minimo e sicurezza"
       sottotitolo: Dibattito
       relatori:
-        - Antonello Patta
-        - Emiliano Brancaccio
+        - nome: Antonello Patta
+          qualifica: Responsabile naz. lavoro Prc-Se
+        - nome: Emiliano Brancaccio
+          qualifica: Economista
         - nome: Guido Lutrario
           qualifica: USB
-        - Giorgia d’Andrea
+        - nome: Giorgia d’Andrea
+          qualifica: Giuslavorista
         - nome: Frédéric Boccara
-          qualifica: PCF
+          qualifica: esecutivo PCF, economista Università della Sorbona
 
     - ora: "21:00"
       titolo: Per un mondo Senza guerra
@@ -127,11 +132,14 @@
     - ora: "20:30"
       titolo: Europa in guerra
       relatori:
-        - Eleonora Forenza
-        - Paolo Ferrero
-        - Sandro Mezzadra
+        - nome: Eleonora Forenza
+          qualifica: Segretariato Sinistra Europea
+        - nome: Paolo Ferrero
+          qualifica: Direzione Prc-Se
+        - nome: Sandro Mezzadra
+          qualifica: Euronomade
         - nome: Marta Martín Morán
-          qualifica: PCE
+          qualifica: PCE - Spagna
         - nome: Alfio Nicotra
           qualifica: Un Ponte Per
 
@@ -143,7 +151,7 @@
   id: dome
   eventi:
     - ora: "10:00 - 14:00"
-      titolo: Attivo
+      titolo: Assemblea nazionale segretari/e di circolo
       sottotitolo: con Ezio Locatelli e Maurizio Acerbo
     - ora: "12:00"
       titolo: La pace è possibile?
@@ -152,9 +160,16 @@
     - ora: "15:00"
       titolo: Sanità pubblica, come possiamo evitare la catastrofe?
       relatori:
-        - Rosa Rinaldi
-        - Vittorio Agnoletto
-        - Ivan Cavicchi
+        - nome: Rosa Rinaldi
+          qualifica:
+        - nome: Vittorio Agnoletto
+          qualifica: Medicina Democratica
+        - nome: Ivan Cavicchi
+          qualifica: Università Tor Vergata - Roma
+        - nome: Michele Vannini
+          qualifica: responsabile sanità segreteria nazionale CGIL-Funzione Pubblica
+        - nome: Elena Govoni
+          qualifica: segreteria regionale PRC Emilia Romagna
     - gc: true
       ora: "15:00"
       titolo: "XII disposizione: antifascismo e rivoluzione"
