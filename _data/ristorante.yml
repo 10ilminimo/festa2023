@@ -1,0 +1,89 @@
+- sezione:
+  piatti:
+    - nome: Coperto
+      price: €1.00
+- sezione: Cucina
+  piatti:
+  - nome: Tagliatelle al ragù
+    price: €7.50
+  - nome: Tagliatelle gorgonzola e noci
+    price: €7.50
+  - nome: Gramigna salsiccia e panna
+    price: €7.50
+  - nome: Gramigna tenerotta e noci
+    vegan: true
+    price: €7.50
+  - nome: Polenta
+    subs: 4
+    info: al ragù
+    price: €6.00
+    subitems:
+    - info: ragù e salsiccia
+      price: €8.00
+    - info: con friggione
+      vegan: true
+      price: €6.00
+    - info: fritta
+      vegan: true
+      price: €3.50
+  - nome: Salsiccia alla griglia
+    subs: 3
+    info: con patatine
+    price: €9.00
+    subitems:
+    - info: con friggione
+      price: €9.00
+    - info:  con verdure grigliate
+      price: €9.00
+  - nome: Stinco al forno
+    price: €12.00
+  - nome: Arrosticini
+    price: €10.00
+- sezione: Contorni
+  piatti:
+  - nome: Parmigiana di melanzane
+    price: €8.00
+  - nome: Friggione
+    price: €3.50
+  - nome: Patate fritte
+    vegan: true
+    price: €3.50
+  - nome: Verdure miste grigliate
+    vegan: true
+    price: €4.50
+- sezione: Dolci
+  piatti:
+  - nome: Zuppa inglese
+    price: €4.00
+  - nome: Profiterole
+    price: €4.00
+  - nome: Mascarpone
+    price: €4.00
+  - nome: Tiramisù
+    price: €4.00
+- sezione: Da bere
+  piatti:
+  - nome: Vino bianco
+    info: 0.5 l
+    price: €4.00
+  - nome: Vino bianco
+    info: 1 l
+    price: €7.00
+  - nome: Vino rosso
+    info: 0.5 l
+    price: €4.00
+  - nome: Vino rosso
+    info: 1 l
+    price: €7.00
+  - nome: Birra in bottiglia
+    info: 0.5 l
+    price: €4.50
+  - nome: Acqua frizzante (bottiglia)
+    subs: 2
+    info: 0.5 l
+    price: €1.00
+    subitems:
+    - info: 1 l
+      price: €2.00
+  - nome: Acqua naturale (caraffa)
+    price: gratis

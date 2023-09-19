@@ -1,0 +1,68 @@
+- sezione: Crescentine (tigelle)
+  piatti:
+  - nome: 3 pezzi vuoti
+    price: €2.50
+  - nome: 7 pezzi vuoti
+    price: €5.00
+- sezione: Gnocco fritto
+  piatti:
+  - nome: Vuoto
+    info: 3 pezzi
+    price: €2.50
+    subs: 2
+    subitems:
+      - info: 7 pezzi
+        price: €5.00
+  - nome: Farcito (prosciutto, salame)
+    subs: 2
+    info: 1 pezzo
+    price: €2.00
+    subitems:
+    - info: 2 pezzi
+      price: €3.00
+  - nome: Farcito (altro)
+    subs: 2
+    info: 1 pezzo
+    price: €2.00
+    subitems:
+    - info: 2 pezzi
+      price: €2.50
+- sezione: Piatti
+  piatti:
+  - nome: Piatto di prosciutto crudo
+    info: ca. 100g
+    price: €6.00
+  - nome: Piatto di salame
+    info: ca. 100g
+    price: €5.00
+  - nome: Affettato misto
+    info: ca. 100g
+    price: €5.00
+  - nome: Stracchino in monoporzione
+    info: ca. 100g
+    price: €10.00
+  - nome: Pesto modenese con parmigiano
+    price: €3.00
+  - nome: Insalata di farro
+    price: €5.00
+  - nome: Zuppa di cavolo nero
+    price: €6.00
+  - nome: Pomodori secchi marinati
+    price: €4.00
+  - nome: Verdure di stagione
+    info:
+    price: €3.00 - €4.00
+  - nome: Verdure di stagione
+    info:
+    price: €3.00 - €4.00
+  - nome: Bresaola rucola e scaglie di parmigiano
+    info: ca. 100g
+    price: €10.00
+- sezione: Vini
+  piatti:
+  - nome: Ricco assortimento di vini bianchi e rossi
+    info:
+    price: €7.00 - €8.00
+  - nome: Lambrusco e pignoletto
+    info:
+    price: €6.00 - €7.00

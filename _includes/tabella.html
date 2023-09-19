@@ -1,0 +1,52 @@
+<table class="table">
+	<thead></thead>
+	<tbody>
+
+    {% for section in include.info %}
+      <tr>
+        <td colspan="3">
+          <h5 class="mt-2 mb-0">{{section.sezione}}</h5>
+        </td>
+      </tr>
+
+      {% for piatto in section.piatti %}
+      <tr>
+        <td {% if piatto.subs > 0 %} rowspan="{{piatto.subs}}" {% endif %}>
+          {% if piatto.vegan %}
+            <span class="d-inline-flex">
+              <span>{{piatto.nome}}</span>
+              <span class="material-symbols-outlined text-success ms-2">
+                nest_eco_leaf
+              </span>
+            </span>
+            {% else %}
+              {{piatto.nome}}
+            {% endif %}
+        </td>
+        <td>{{piatto.info}}</td>
+        <td>{{piatto.price}}</td>
+        {% if piatto.subs > 0 %}
+          {% for sub in piatto.subitems %}
+          </tr>
+          <tr>
+            <td>
+              {% if sub.vegan %}
+              <span class="d-inline-flex">
+                <span>{{sub.info}}</span>
+                <span class="material-symbols-outlined text-success ms-2">
+                  nest_eco_leaf
+                </span>
+              </span>
+              {% else %}
+                {{sub.info}}
+              {% endif %}
+            </td>
+            <td>{{sub.price}}</td>
+          {% endfor %}
+        {% endif %}
+
+      </tr>
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>
